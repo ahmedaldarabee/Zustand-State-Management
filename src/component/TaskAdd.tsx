@@ -15,6 +15,7 @@ const TaskAdd = () => {
         }else{
             toast.success('Task added successfully!');
             addTask(title);
+            setTitle("")
         }
     }
 

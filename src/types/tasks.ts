@@ -6,5 +6,6 @@ export type TaskType = {
 
 export interface ITaskType {
     tasks: TaskType[],
-    addTask: (title: string) => void
+    addTask: (title: string) => void,
+    removeTask: (id: number) => void,
 }
