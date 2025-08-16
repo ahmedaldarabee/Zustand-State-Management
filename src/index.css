@@ -118,3 +118,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+.taskScrollBar::-webkit-scrollbar{
+  @apply w-2
+}
+.taskScrollBar::-webkit-scrollbar-thumb{
+  @apply bg-sky-600 rounded-3xl cursor-move
+}
+.taskScrollBar::-webkit-scrollbar-track{
+  @apply bg-gray-100
+}
